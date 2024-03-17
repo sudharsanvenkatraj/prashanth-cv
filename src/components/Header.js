@@ -19,11 +19,14 @@ export default function Header() {
           <div class="header-right">
             <div class="search-container">
             </div>
-            <a class="active" href="/">Home</a>
-            <button onClick={() => navigateHandler('aboutme')}>About mess</button>
+            {/* <a class="active" href="/">Home</a> */}
+            <button onClick={() => navigateHandler('home')}>Home</button>
+            <button onClick={() => navigateHandler('aboutme')}>About me</button>
+            <button onClick={() => navigateHandler('projects')}>Projects</button>
+            <button onClick={() => navigateHandler('certificates')}>Certificates</button>
             {/* <a href="#contact">Blogs</a> */}
-            <a href="projects">Projects</a>
-            <a href="certificates">Certificates</a>
+            {/* <a href="projects">Projects</a>
+            <a href="certificates">Certificates</a> */}
           </div>
         </div>
       </header>

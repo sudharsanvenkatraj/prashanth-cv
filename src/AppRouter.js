@@ -14,6 +14,10 @@ const Router =  createBrowserRouter([
         Component: Home,
       },
       {
+        path: '/home',
+        Component: Home,
+      },
+      {
         path: '/aboutme',
         Component: Aboutme 
       },
