@@ -3,7 +3,6 @@ import aboutme from '../asserts/prasanth/images/blogimage.png'
 import './css/aboutme.css';
 
 export default function Aboutme() {
-
     return (
         <>
             <section class="fh5co-about-me">
@@ -34,8 +33,6 @@ export default function Aboutme() {
                                     <br />
                                     In my previous role, I served as an interim team leader, where I was able to leverage my technical expertise and people skills to drive significant improvements in operational efficiency and team morale. I am now eager to bring my unique blend of skills and experiences to a new challenge and make a positive impact in the field of business analytics.
                                 </p>
-                                {/* <h4>Author</h4> */}
-                                {/* <a class="p-white">See me</a> */}
                             </div>
                         </div>
                     </div>

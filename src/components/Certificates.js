@@ -4,9 +4,7 @@ import Col from 'react-bootstrap/Col';
 import cert from '../asserts/prasanth/images/certificate.jpeg';
 import Container from 'react-bootstrap/Container';
 
-
 export default function Certificates() {
-
     const styleImage = {
         'display': 'block',
         'margin-left': 'auto',
@@ -18,9 +16,8 @@ export default function Certificates() {
     }
 
     return (
-
         <>
-        <h2 class="universal-h2 universal-h2-bckg">Certificates</h2>
+            <h2 class="universal-h2 universal-h2-bckg">Certificates</h2>
             {/* <h1> Certificates</h1> */}
             <section>
                 <Container>
@@ -32,7 +29,6 @@ export default function Certificates() {
                         </Col>
                     </Row>
                 </Container>
-
             </section>
         </>
     )

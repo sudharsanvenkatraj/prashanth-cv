@@ -7,19 +7,31 @@ import Swal from 'sweetalert2';
 export default function Footer() {
     function sendHandler(e) {
         e.preventDefault();
-        // let data = {
-        //     user_name : e.target.user_name.value,
-        //     user_email : e.target.user_email.value,
-        //     user_message : e.target.user_message.value
-        // }
-
         emailjs.sendForm('service_zklilqv', 'template_4stk7ik', e.target, '1T4iqO5X7Fe4KawEP')
             .then((result) => {
                 console.log(result.text);
+                let timerInterval;
                 Swal.fire({
-                    icon: 'success',
-                    title: 'Message Sent Successfully'
-                })
+                    title: "Thanks for contacting",
+                    html: "I will close in <b></b> milliseconds.",
+                    timer: 500,
+                    timerProgressBar: true,
+                    didOpen: () => {
+                        Swal.showLoading();
+                        const timer = Swal.getPopup().querySelector("b");
+                        timerInterval = setInterval(() => {
+                            timer.textContent = `${Swal.getTimerLeft()}`;
+                        }, 100);
+                    },
+                    willClose: () => {
+                        clearInterval(timerInterval);
+                    }
+                }).then((result) => {
+                    /* Read more about handling dismissals below */
+                    if (result.dismiss === Swal.DismissReason.timer) {
+                        console.log("I was closed by the timer");
+                    }
+                });
             }, (error) => {
                 console.log(error.text);
                 Swal.fire({
