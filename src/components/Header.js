@@ -20,7 +20,7 @@ export default function Header() {
             <div class="search-container">
             </div>
             <a class="active" href="/">Home</a>
-            <button onClick={() => navigateHandler('aboutme')}>About me</button>
+            <button onClick={() => navigateHandler('aboutme')}>About mess</button>
             {/* <a href="#contact">Blogs</a> */}
             <a href="projects">Projects</a>
             <a href="certificates">Certificates</a>
