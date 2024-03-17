@@ -1,9 +1,14 @@
 import React from 'react';
 import { RiAccountCircleFill } from "react-icons/ri";
 import './css/header.css'
+import { useNavigate } from 'react-router-dom'
 
 
 export default function Header() {
+  const navigate = useNavigate();
+  const navigateHandler = (e) => {
+    navigate(`/${e}`)
+  }
   return (
     <>
       <header>
@@ -14,7 +19,7 @@ export default function Header() {
             <div class="search-container">
             </div>
             <a class="active" href="/">Home</a>
-            <a href="aboutme">About me</a>
+            <button onClick={() => navigateHandler('aboutme')}>About me</button>
             {/* <a href="#contact">Blogs</a> */}
             <a href="projects">Projects</a>
             <a href="certificates">Certificates</a>

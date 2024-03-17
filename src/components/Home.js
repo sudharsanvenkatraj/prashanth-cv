@@ -8,7 +8,6 @@ export default function Home() {
     let dd = "Read bio >"
     return (
         <>
-
             <section class="fh5co-top-banner">
                 <div class="top-banner__inner site-container">
                     <div class="top-banner__image">

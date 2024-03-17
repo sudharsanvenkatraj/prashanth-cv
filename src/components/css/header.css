@@ -1,3 +1,15 @@
- a:hover{
+ button:hover{
     color: rgb(193, 143, 89) !important
+  }
+
+  button{
+    background-color: transparent;
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
   }

@@ -3,24 +3,31 @@ import Home from './components/Home';
 import Aboutme from './components/Aboutme';
 import Projects from './components/Projects';
 import Certificates from './components/Certificates';
+import Layout from './components/Layout';
 
 const Router =  createBrowserRouter([
   {
-    path: '/',
-    element: <Home />,
+    element: <Layout />,
+    children: [
+      {
+        path: '/',
+        Component: Home,
+      },
+      {
+        path: '/aboutme',
+        Component: Aboutme 
+      },
+      {
+        path: '/projects',
+        Component: Projects
+      },
+      {
+        path: '/certificates',
+        Component: Certificates
+      }
+    ],
   },
-  {
-    path: '/aboutme',
-    element: <Aboutme />
-  },
-  {
-    path: '/projects',
-    element: <Projects />
-  },
-  {
-    path: '/certificates',
-    element: <Certificates />
-  }
+ 
 
 ])
 
