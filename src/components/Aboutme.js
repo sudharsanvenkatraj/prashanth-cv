@@ -43,31 +43,47 @@ export default function Aboutme() {
                 <div class="about-me-bckg"></div>
             </section>
             <section>
+            <h2 class="universal-h2 universal-h2-bckg" style={{'marginBottom':'35px'}}>TIMELINE</h2>
                 <ul>
-                    <li style={{ '--accent-color': '#41516C' }}>
-                        <div class="date">2002</div>
-                        <div class="title">Title 1</div>
-                        <div class="descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!</div>
+                <li style={{ '--accent-color': '#41516C' }}>
+                        <div class="date">June 2012 - May 2015</div>
+                        <div class="title">Diploma</div>
+                        <div class="descr">Electronics Engineering at PSG College of Technology</div>
                     </li>
                     <li style={{ '--accent-color': '#FBCA3E' }} >
-                        <div class="date">2007</div>
-                        <div class="title">Title 2</div>
-                        <div class="descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci nobis nostrum vero nihil veniam.</div>
+                        <div class="date">June 2012 - May 2015</div>
+                        <div class="title">Bachelor of Engineering</div>
+                        <div class="descr">Robotics & Automation at PSG College of Technology</div>
                     </li>
                     <li style={{ '--accent-color': '#E24A68' }}>
-                        <div class="date">2012</div>
-                        <div class="title">Title 3</div>
-                        <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic.</div>
+                        <div class="date">June 2018- Feb 2019</div>
+                        <div class="title">Intern</div>
+                        <div class="descr">Nizan Robotics</div>
                     </li>
                     <li style={{ '--accent-color': '#1B5F8C' }}>
-                        <div class="date">2017</div>
-                        <div class="title">Title 4</div>
-                        <div class="descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque.</div>
+                        <div class="date">March 2019 - Dec 2019</div>
+                        <div class="title">Regional Coordinator</div>
+                        <div class="descr">SWF</div>
                     </li>
                     <li style={{ '--accent-color': '#4CADAD' }}>
-                        <div class="date">2022</div>
-                        <div class="title">Title 5</div>
+                        <div class="date">Jan 2020 - July 2021</div>
+                        <div class="title">Operations Analyst</div>
                         <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
+                    </li>
+                    <li style={{ '--accent-color': '#664cad' }}>
+                        <div class="date">July 2021 - Dec 2022</div>
+                        <div class="title">Operations Executive</div>
+                        <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
+                    </li>
+                    <li style={{ '--accent-color': '#1aa0d2'}}>
+                        <div class="date">Jan 2023 - May 2024</div>
+                        <div class="title">M.Sc. Management with Business Analytics</div>
+                        <div class="descr">Bournemouth University UK</div>
+                    </li>
+                    <li style={{ '--accent-color': '#337a1e' }}>
+                        <div class="date">Jan 2023 - May 2024</div>
+                        <div class="title">Data Analyst Intern</div>
+                        <div class="descr">Waters Corporation</div>
                     </li>
                 </ul>
             </section>

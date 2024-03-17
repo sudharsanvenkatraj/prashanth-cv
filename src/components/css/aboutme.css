@@ -26,8 +26,8 @@ h1 {
 
 ul {
   --col-gap: 2rem;
-  --row-gap: 2rem;
-  --line-w: 0.25rem;
+  --row-gap: 15rem;
+  --line-w: 0.85rem;
   display: grid;
   grid-template-columns: var(--line-w) 1fr;
   grid-auto-columns: max-content;
@@ -35,6 +35,10 @@ ul {
   list-style: none;
   width: min(60rem, 90%);
   margin-inline: auto;
+}
+
+ul li:nth-last-child(-n+2) {
+  grid-row: 8 / span 20;
 }
 
 /* line */
