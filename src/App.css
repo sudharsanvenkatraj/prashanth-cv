@@ -268,7 +268,7 @@ input[type=”text” i]{
       width: 90%; } }
 
 .universal-h2 {
-  font-size: 44px;
+  font-size: 48px;
   text-align: center;
   color: #222; }
   @media (max-width: 1250px) {
@@ -565,7 +565,7 @@ input[type=”text” i]{
         margin-bottom: 10px; } }
     .portfolio-wrapper .portfolio__name span {
       font-size: 62px;
-      line-height: 100px;
+      line-height: 63px;
       color: #c18f59;
       font-family: "Calisto-MT-Bold"; }
       @media (max-width: 992px) {

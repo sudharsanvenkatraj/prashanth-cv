@@ -7,7 +7,7 @@ import Layout from './components/Layout';
 
 const Router =  createBrowserRouter([
   {
-    element: <Layout />,
+    Component: Layout,
     children: [
       {
         path: '/',
